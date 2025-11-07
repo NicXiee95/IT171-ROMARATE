@@ -1,7 +1,7 @@
-player_x = 0
-player_y = 0
+player_alexie = 0
+player_nicole = 0
 
-treasure_x = 5
+treasure_e = 5
 treasure_y = 3
 game_running = True
 
