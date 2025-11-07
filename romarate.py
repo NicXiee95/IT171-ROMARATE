@@ -8,7 +8,7 @@ game_running = True
 print(f"Find the treasure at ({treasure_x}, {treasure_y})!")
 
 while game_running:
-  move = input("Enter move (up/down/left/right): ")
+  move = input("Enter move (up/down/left/right): ").lower()
 
 if move == "up":
   player_nicole += 1
