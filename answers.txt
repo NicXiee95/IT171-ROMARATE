@@ -1,0 +1,4 @@
+1. I think the options are selected so that the Git can work smoothly with the useful features like GUI or command tools for a faster and convenient way.
+2. A programmer uses a command line as programmers like to interact with computer. In this way, programmers can easily run programs, manage projects using simple commands and saves time in doing a lot of things.
+3. When you type pwd again, the shell shows the path of where you are right now, like the folder path you moved into.
+4. Enabling Add Readme option creates a Readme.md file, which is a text file that contains the project name and a short description.
