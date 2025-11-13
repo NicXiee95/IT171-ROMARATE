@@ -2,3 +2,17 @@
 2. A programmer uses a command line as programmers like to interact with computer. In this way, programmers can easily run programs, manage projects using simple commands and saves time in doing a lot of things.
 3. When you type pwd again, the shell shows the path of where you are right now, like the folder path you moved into.
 4. Enabling Add Readme option creates a Readme.md file, which is a text file that contains the project name and a short description.
+
+diff --git a/romarate.py b/romarate.py
+index d390f95..98fcb0f 100644
+--- a/romarate.py
++++ b/romarate.py
+@@ -5,8 +5,6 @@ treasure_e = 5
+ treasure_y = 3
+ game_running = True
+
+-print("Welcome to Romarate's Maze")
+-
+ print(f"Find the treasure at ({treasure_x}, {treasure_y})!")
+
+ while game_running:
