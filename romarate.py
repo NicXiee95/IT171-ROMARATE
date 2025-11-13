@@ -10,21 +10,21 @@ print("Welcome to Romarate's Maze")
 print(f"Find the treasure at ({treasure_x}, {treasure_y})!")
 
 while game_running:
-  move = input("Enter move (up/down/left/right): ").lower()
+  move = input("Enter move (w = up/s = down/a = left/d = right) or q: ").lower()
 
-if move == "up":
+if move == "w":
   player_nicole += 1
-if move == "down":
+if move == "s":
   player_nicole -= 1
-if move == "left":
+if move == "a":
   player_alexie -= 1
-if move == "right":
+if move == "d":
   player_alexie += 1
 if move == "q":
   print("Maybe next time=(")
   break
 else:
-  print("invalid move!)
+  print("invalid move!")
         
 print(f"player position: ({player_alexie}, {player_nicole})")
         
