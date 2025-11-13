@@ -5,6 +5,8 @@ treasure_e = 5
 treasure_y = 3
 game_running = True
 
+print("Welcome to Romarate's Maze")
+
 print(f"Find the treasure at ({treasure_x}, {treasure_y})!")
 
 while game_running:
